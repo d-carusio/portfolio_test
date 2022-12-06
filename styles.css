@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.designer-word{
+    color: #EB6440;
+    font-family: 'Sacramento';
+    font-size: 2.7rem;
+}
+
+.myskills{
+    margin: 50px auto;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-cont {
+    background-color: #EFF5F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+}
+
+/*mid section*/
+.profilepic{
+    width: 150px;
+    height: 150px;
+}
+
+.profile-description {
+    display: block;
+    width: 40%;
+    margin: 50px auto;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: #EB6440;
+    width: 4%;
+}
+
+.middle-container{
+    background-color: #D6E4E5;
+    padding-top: 50px;
+}
+
+.skills{
+    background-color: #D6E4E5;
+}
+
+.designimg{
+    float: left;
+    padding: auto;
+    margin-right: 20px;
+    width: 20%;
+    transition: all .2s ease-in-out;
+
+}
+
+.designimg:hover {
+    transform: scale(1.1); 
+}
+
+
+.photoimg{
+    float: right;
+    margin: auto;
+    width: 20%;
+    transition: all .2s ease-in-out;
+}
+
+.photoimg:hover {
+    transform: scale(1.1); 
+}
+
+.skill-row{
+    width: 30%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.complain{
+    margin-top: 20px;
+}
+
+.complain-desc{
+    display: block;
+    margin: 30px auto 50px;
+    width: 50%;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 20px;
+    background: #EB6440;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #497174;
+    text-decoration: none; 
+}
+
+/*footer*/
+.bottom-container{
+    background-color: #EB6440;
+    padding: 50px;
+}
+
+.footer-link {
+    color: #EFF5F5;
+    font-family: 'Montserrat';
+    padding: 10px 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-link:hover{
+    color: #EFF5F5;
+    font-weight: bold;
+}
+
+.bottom-container p{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    padding-top: 30px;
+    margin: 0 auto;
+}
